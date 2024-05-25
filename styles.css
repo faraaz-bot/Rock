@@ -1,0 +1,102 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100%; /* Ensure the container takes up the full height of the viewport */
+}
+
+.one #title{
+  font-size: 40px;
+}
+
+.container .two {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container .two div {
+    background: white;
+    height: 100px;
+    margin: 0 80px; /* Add margin to create space between elements */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure the title takes up the full height of its parent container */
+}
+
+
+.container .three {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.container .three img {
+    width: 240px; /* Adjust the width as needed */
+    height: auto; /* Allow the height to adjust proportionally */
+    margin-right: 5%; /* Add right margin to create a gap between images */
+    
+}
+.container .four {
+    display: flex;
+    justify-content: space-between; /* Align items evenly with space between them */
+}
+
+.container .four button {
+    background-color: #4CAF50; /* Green background */
+    color: #ffffff; /* White text */
+    font-family: 'Roboto', sans-serif; /* Futuristic font */
+    font-size: 18px; /* Font size */
+    padding: 12px 24px; /* Padding around text */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    outline: none; /* Remove outline on focus */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.container .five {
+  padding-top: 15px;
+}
+
+.container .five div {
+  font-size: 20px;
+  margin: 2px;
+}
+
+
+.container .six button {
+      background-color: #4CAF50; /* Green background */
+    color: #ffffff; /* White text */
+    font-family: 'Roboto', sans-serif; /* Futuristic font */
+    font-size: 18px; /* Font size */
+    padding: 12px 24px; /* Padding around text */
+    border: none; /* No border */
+    border-radius: 50px; /* Rounded corners */
+    cursor: pointer;
+    outline: none; /* Remove outline on focus */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.container .six{
+  padding: 10px;
+}
+
